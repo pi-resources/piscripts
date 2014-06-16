@@ -30,7 +30,7 @@ def getTemperatures():
 def _loadSensors():
 	dir = os.listdir("/sys/bus/w1/devices/");
 	for a in dir:
-		if a <> 'w1_bus_master1':
+		if a != 'w1_bus_master1':
 			sensors.append(a);
 	#print(sensors);
 
