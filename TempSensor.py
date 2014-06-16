@@ -16,7 +16,7 @@ def getRawTemperature(sensorid):
 def printSensors():
 	print("The following sensors were found on this system:");
 	for sensor in sensors:
-		print "  {}".format(sensor);
+		print("  {}".format(sensor));
 
 def getSensors():
 	return sensors;
